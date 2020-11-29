@@ -1,0 +1,97 @@
+#titulo{
+    font-size: 25px;
+}
+
+#texto{
+    display: flex;
+    color:black;
+    text-align: center;
+}
+
+.contenido{
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+
+.imagen{
+    display: inline-block;
+    background: url("index.jpg") ;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    margin: 5% 20px;
+    float: left;
+    width: 800px;
+    height: 400px;
+    border-radius: 1rem ;
+  
+}
+
+.form{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    /*margin: 50px 50px 200px 700px ;*/
+    float:right;
+    margin:5% 60px;
+    padding: 20px 20px 30px 30px;
+    background-color: beige;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.imagen-fondo{
+    background-image: url("https://www.gochile.cl/fotos/header/2966-cajon-del-maipo-gandalf-blanco.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+.banner{
+    height: 80px;
+    width: 100%;
+}
+
+
+
+
+.header{
+    /*distribuye el contenido dentro del header*/
+    background:beige;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+
+    
+
+}
+
+
+.nav{
+
+    /*diseño de las anclas*/
+    font-size: 10px;
+    color:black;
+    text-decoration: none;
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 1px;
+    
+    
+}
+
+footer{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(153, 150, 150);
+    color: rgb(58, 58, 58);
+    text-align: start;
+  }
+
